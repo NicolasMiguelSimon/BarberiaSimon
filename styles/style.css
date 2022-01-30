@@ -1,22 +1,11 @@
-footer {
-    background-color:#ccc;
-
-body{
-    font-family:sans-serif;
-    background: rgb(133, 130, 130);
-    margin:0px;
-}
-
-.propriedades {
-    color:white;
+.contatos-barbearia {
+    color:black;
     text-align:center;
     list-style:none;
     padding:0px;
 }
 
-
-
-#propriedades2 {
+#descricao-barbearia {
     list-style:none;
     text-align:center;
 }
@@ -30,7 +19,7 @@ body{
     text-shadow:1px 1px 1px white;
 }
 
-.margin {
+.fotos-clientes {
     width:100%;
     height:50%;
     list-style:none;
@@ -39,11 +28,11 @@ body{
     padding:10px;
     box-sizing:border-box;
     overflow:auto;
+    text-align: center;
 }
 
-.contatos {
-    color:black;
-    text-shadow: 1px 1px 1px white;
+#contatos {
+    color:#ccc;
 }
 
 #color-margin {
@@ -54,8 +43,26 @@ body{
     background-color:#ccc;
 }
 
-#black-footer {
+#copyright {
+    color: aliceblue; 
+    text-align: center;
+    margin-top: 10%;
+}
+
+.espaco-clientes {
+
+    background-color:#ccc;
+}
+
+body{
+    font-family:sans-serif;
+    background: rgb(133, 130, 130);
+    margin:0px;
+}
+
+footer {
+    background-color: rgb(42, 42, 42);
     width:100%;
     height:200px;
-    background-color: rgb(42, 42, 42);
+    text-align: center;
 }
