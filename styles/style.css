@@ -1,8 +1,10 @@
 .contatos-barbearia {
     color:black;
+    text-shadow:1px 1px 2px rgb(82, 75, 75);
     text-align:center;
     list-style:none;
-    padding:0px;
+    position:relative;
+    bottom:-15px;
 }
 
 #descricao-barbearia {
@@ -11,19 +13,22 @@
 }
 
 #space {
+    font-weight: 999;
+    font-size:50px;
+    font-family:serif;
     letter-spacing:2px;
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 1px 1px 1px white;
 }
 
 .mini-space {
-    text-shadow:1px 1px 1px white;
+    text-shadow:1px 1px 2px white;
 }
 
 .fotos-clientes {
     width:100%;
     height:50%;
     list-style:none;
-    background-color:black;
+    background-color:rgb(24, 23, 23);
     display:block;
     padding:10px;
     box-sizing:border-box;
@@ -33,24 +38,26 @@
 
 #contatos {
     color:#ccc;
+    display: block;
+    margin-top: 0;
 }
 
 #color-margin {
     font-size:20px;
     text-align:center;
     width:100%;
-    height:34px;
+    height:36px;
     background-color:#ccc;
 }
 
 #copyright {
-    color: aliceblue; 
     text-align: center;
-    margin-top: 10%;
+    color: aliceblue; 
+    margin-top: 10px;
+    position:relative;
 }
 
 .espaco-clientes {
-
     background-color:#ccc;
 }
 
@@ -65,4 +72,30 @@ footer {
     width:100%;
     height:200px;
     text-align: center;
+}
+
+#color-link {
+    color:white;
+}
+
+#color-id {
+    color:white;
+    font-style: italic;
+}
+
+#configurations {
+    color: white;
+    position:relative;
+    float:left;
+    left: 1680px;
+}
+
+td {
+    border: 1px solid white;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+tr {
+    background:rgb(71, 69, 69);
 }
